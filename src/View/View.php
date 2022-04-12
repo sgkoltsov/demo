@@ -6,8 +6,8 @@ use App\Exception\NotFoundException;
 
 class View implements Renderable
 {
-	private string $view;
-	private array $data;
+	private $view;
+	private $data;
 
 	public function __construct($view, $data = [])
 	{
