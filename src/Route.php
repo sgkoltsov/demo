@@ -5,9 +5,9 @@ use Closure;
 
 class Route
 {
-    private string $method;
-    private string $path;
-    private Closure $callback;
+    private $method;
+    private $path;
+    private $callback;
 
     public function __construct(string $method, string $path, array $callback)
     {
