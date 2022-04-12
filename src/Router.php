@@ -6,7 +6,7 @@ use App\Exception\NotFoundException;
 class Router
 {
     /** @var array|Route[]  */
-    private array $routes = [];
+    private $routes = [];
 
     public function get(string $path, array $callback)
     {
