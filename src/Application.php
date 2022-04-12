@@ -7,7 +7,7 @@ use App\Exception\NotFoundException;
 
 class Application
 {
-    private Router $router;
+    private $router;
 
     public function __construct(Router $router)
     {
